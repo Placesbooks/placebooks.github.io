@@ -4,7 +4,7 @@ html {
 
 body{
 
-  background-color: #ffdd99;
+  background-color:#ffffff;
   
 }
  /* This is background without image */
@@ -22,6 +22,25 @@ body{
 
   } 
   /* This is background with image */
+
+.TOPINFO {
+background-color: #ffffff;
+
+color: 8B320C;
+  
+      font-size: 25px;  
+
+ padding-left: 10px;
+ padding-right: 0px;
+ margin-top: 10px;
+  bottom: 100;
+  width: 100%;
+  /* Set the fixed height of the TOP here */
+  height: 50px;
+-webkit-backface-visibility: hidden;
+}
+/* the TOP content*/
+
 
 h1{
    display: block;
@@ -71,13 +90,13 @@ h4{
 
 
 h5{font-family: 'BenchNine', sans-serif;
-  color: #6b6666;
+  
   font-size: 11px;
   letter-spacing: 1px;
   padding-left: 3px;}
 
 h6{font-family: 'BenchNine', sans-serif;
-  color: #6b6666;
+  
   font-size: 16px;
   letter-spacing: 1px;
   padding-left: 3px;}
@@ -256,7 +275,7 @@ width: 100% !important;
 @media (max-width: 768px) {
 
   #footer{
-background:#ffdd99; 
+background-color: #b3e6ff;
 color: #ffffff; 
  padding-left: 0px;
  padding-right: 0px;
@@ -391,7 +410,7 @@ label {
     display: block;
     margin: 0 auto;
     width: 70%;
-    color: #b30059;
+    color: #000000;
 }
 
 input,
@@ -452,7 +471,7 @@ list-style-type: none;
 
 .icon-bar {
   width: 100%; /* Full-width */
-  background-color: #F7C170; /* Dark-grey background */
+  background-color: #b3e6ff; /* Dark-grey background */
   overflow: auto; /* Overflow due to float */
 }
 /* icon bar at the bottom  */
@@ -480,9 +499,9 @@ list-style-type: none;
   background-color: white; /* Add an active/current color */
 
 
-.footer{
-background:#ffdd99; 
-color: #ffffff; 
+.footer {
+background-color: #b3e6ff;
+color: #6b6666;
  padding-left: 0px;
  padding-right: 0px;
 
