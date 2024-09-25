@@ -1,0 +1,549 @@
+html {
+  position: relative;
+  min-height: 100%;}
+
+body{
+
+  background-color:  #eadad1;
+  
+}
+ /* This is background without image */
+
+
+.bg-image{
+ background-image: url("Images/bg.jpg");
+
+  height:400px;
+
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  } 
+  /* This is background with image */
+
+
+h1{
+   display: block;
+    margin: 0px auto;
+     text-align: center;
+  font-family: 'Arial',serif;
+  font-size: 50px;
+    color: #154c79; /*color: #342218; */
+margin-top: 0px;
+padding-top: 50px;
+     
+}
+
+   /* banner web title */
+
+
+h2 {
+  color: 8B320C; /*color: #9d6748; color before*/
+  display: block;
+    margin: 0px auto;
+     text-align: center;
+      font-size: 18px;  
+}  
+
+/* This is the greeting under banner, #2e1513; */
+
+
+h3{ 
+  color:   #8b4141;
+font-size: 23px;
+text-align: center;
+  display: block;
+
+
+}
+
+/* This is paragraph title*/
+
+
+h4{
+  font-family: 'BenchNine', sans-serif;
+  color:  #6a6868;
+  font-size: 18px;
+  letter-spacing: 0px;
+   text-align: center;
+
+
+}
+
+
+h5{font-family: 'Arial',serif;
+  color: #000000;
+  font-size: 11px;
+  letter-spacing: 1px;
+  padding-left: 3px;}
+
+
+/* This is copyright message */
+
+h6{font-family: 'Arial',serif;
+  color:  #6a6868;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding-left: 3px;}
+
+
+p{
+
+
+font-family: 'Lucida Bright';
+color:   #343232;
+letter-spacing: .5px;
+font-size: 20px;
+text-align: center;
+}
+
+
+.ptext p{
+
+
+color: #343232;
+letter-spacing: .5px;
+font-size: 17px;
+font-weight: bold;
+text-align: center;
+}
+
+
+
+ul{color: red;
+-webkit-backface-visibility: hidden;
+
+}
+
+li{color: #ffffff;
+list-style-type: none;
+text-align: center;
+
+}
+
+
+.banner{
+ 
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    color: #8B320C;
+    
+  }
+
+ /* banner web title */
+
+.navbar-default {
+  background: none;
+  border: none;
+  display: inline-block;
+
+  }
+    /* navigation bar */
+
+  .navbar-default .navbar-nav>li>a {
+color: #8B320C;
+
+}
+
+/* navigation bar with menu items */
+
+.navbar-default .navbar-nav>.active>a {
+  color: #8B320C  !important;
+  background: white !important;
+}
+
+/* navigation selected active item on menu */
+
+
+.navbar a:hover {
+  color: red !important; /* Add a hover color */
+background: transparent !important;
+}
+
+
+
+/*navbar menu a big screen hover color*/
+
+
+
+.dropdown-menu a{
+color: white !important;
+text-align: center !important;
+margin-right: 50px;
+   
+}
+/*Dropdown menu a big screen*/
+
+@media (max-width: 768px) { 
+.dropdown-menu a{
+color: red !important;
+text-align: center !important;
+margin-right: 20px;}
+
+}
+/*Dropdown menu a small screen*/
+
+
+
+.dropdown-menu{
+  font-size: 19px; 
+  background: none;
+
+}
+
+/*Dropdown menu big screen*/
+
+.dropdown a:hover  {
+color:  red !important;
+background: transparent !important;
+
+}
+
+
+/*navbar menu a big screen hover color*/
+
+
+@media (min-width: 768px) { 
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; }
+
+}
+
+/*Dropdown menu a small screen hover color*/
+
+
+.navbar-toggle{
+background: white !important;
+
+}
+
+/*Navbar collapse Icon Sandwich menu color*/
+
+.container{
+
+text-align: center;
+ 
+font-family: 'Arial',serif;
+font-size: 25px;
+ margin-bottom: 135px;   /*this is for dropdown bottom space*/
+
+}
+/*this is for dropdown menu*/
+
+
+
+
+.col-xs-6 {
+
+
+  padding-top: 0px ;
+padding-right: 0px; 
+ padding-bottom: 0px ; 
+padding-left: 200px; 
+width: 80%;
+}
+  /*{padding :0 2px;} had this in .col-xs-6*/
+
+
+
+ /* Content in Row full screen sizing */
+
+#con{width: 100%;
+
+}
+
+/* Content in myphoto full screen sizing */
+
+
+ @media (max-width: 768px) {
+#myphoto{
+padding-left:0px !important;
+}}
+
+ /* Content in myphoto small screen sizing */
+
+ @media (max-width: 768px) {
+.col-xs-6{
+  padding :0 10%;
+ display: inline-block;
+
+}
+}
+ /* Content in Row small screen sizing */
+
+
+ @media (max-width: 768px) {
+#filltext{
+width: 100% !important;
+
+
+}
+}
+ /* Content in mytext small screen sizing */
+
+
+
+ @media (max-width: 768px) {
+#measurements{
+width: 100% !important;
+
+}
+}
+ /* Content in measurements in small screen sizing */
+
+
+@media (max-width: 768px) {
+
+  #footer{
+
+ padding-left: 0px;
+ padding-right: 0px;
+
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 0px;
+-webkit-backface-visibility: hidden;
+}
+/* the footer content*/
+
+
+
+
+
+}
+}
+
+
+
+/*footer*/
+
+.section{
+padding :0px;
+margin-left: 19px;
+color: red;
+font-size: 26px;
+font-family: 'Arial',serif;
+
+
+}
+
+.custom{
+
+   padding-left: 0px;
+    padding-right: 100px;
+
+   background-color: black;   
+    
+
+}
+
+
+
+
+
+
+.link a{color: white;
+font-family: 'Arial',serif;
+font-size: 25px;
+text-align: center;
+}
+
+/*mytext link color*/
+
+.filltext{
+
+
+
+
+  text-align: center;
+
+  font-family: 'Arial',serif;
+  font-size: 22px;
+}
+
+
+#measure{width:30%;
+ padding-left:}
+
+
+#measurements{width:50%;
+ padding-left:
+}
+/* measurement text */
+
+.artist{
+      display:none;
+    }
+/* Field must be filled */
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+
+}
+/*form settings start here*/
+input,
+textarea,
+label {
+    font-family: 'Poppins',
+        sans-serif;
+ font-size: 18px;
+
+        
+}
+/*
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 5%;*/
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px 0;
+}
+
+input,
+textarea,
+label {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    color:  #8b4141;
+}
+
+input,
+textarea {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid #828282;
+}
+
+input[type=submit] {
+    background-color: #545557;
+    padding: 15px 0;
+    color: white;
+    font-size: 18px;
+    border-bottom: none;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+
+input[type=submit]:hover {
+    background: #FFF;
+    color: #1b1c1e;
+}
+
+
+input,
+textarea {
+    color:black ;
+    font-size: 18px;
+    padding: 10px;
+}
+
+input:focus,
+textarea:focus {
+    outline: 1px solid #828282;
+}
+/*form settings ends here*/
+
+
+
+/*form*/
+
+
+.menubottom a{
+
+color:#6b6666;
+padding-left: 100px;
+padding-right: 100px;
+
+opacity: 0.9;
+font-family: 'Arial',serif;
+font-size: 18px;
+list-style-type: none;
+-webkit-backface-visibility: hidden;
+
+}
+/* the bottom menu links */
+
+.icon-bar {
+  width: 100%; /* Full-width */
+  background-color:  #dfc7b9; /* Dark-grey background */
+  overflow: auto; /* Overflow due to float */
+}
+/* icon bar at the bottom  */
+
+
+@media (max-width: 768px) { 
+.icon-bar a{
+width: 12% !important; /* Equal width (5 icons with 20% width each = 100%) */
+
+}}
+/*icon-bar a on small screen*/
+
+
+
+.icon-bar a {
+  float: left; /* Float links side by side */
+  text-align: center; /* Center-align text */
+  width: 8%; /* Equal width (5 icons with 20% width each = 100%) */
+  padding: 8px 0; /* Some top and bottom padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: white; /* White text color */
+  font-size: 0px; /* Increased font size */
+}
+
+/* icon bar a link at the bottom  */
+
+.icon-bar a:hover {
+  background-color:  #6a6868; /* Add a hover color */
+
+}
+
+/* hover for icon bar a link at the bottom  */
+
+ /*.active {
+  background-color: white; /* Add an active/current color */
+
+
+
+.footer{
+
+ padding-left: 0px;
+ padding-right: 0px;
+
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 0px;
+-webkit-backface-visibility: hidden;
+}
+/* the footer content*/
+
+
+
+
+
+
