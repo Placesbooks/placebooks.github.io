@@ -266,19 +266,33 @@ width: 100% !important;
 
   position: absolute;
   bottom: 0;
-  width: 100%;
+  width: 100% !important;
   /* Set the fixed height of the footer here */
   height: 0px;
 -webkit-backface-visibility: hidden;
-}
+
 /* the footer content*/
 
 
-
-
-
 }
 }
+
+@media (min-width: 360px) 
+and    (max-width: 390px) {
+  body {
+  width: 107% !important; /* Full-width in small devices */
+  /* Dark-grey background */
+  overflow: auto; /* Overflow due to float */
+}
+/* icon bar at the bottom small screens */
+
+}
+
+
+
+
+
+}}
 
 
 
