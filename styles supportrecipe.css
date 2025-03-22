@@ -43,7 +43,7 @@ height: 105%;
 
 .btn-danger, .btn-danger:active,.btn-danger:visited { 
  background-color:  #800040; 
-font-size: 23px;
+font-size: 30px;
 text-align: center;
 
 
@@ -51,7 +51,7 @@ text-align: center;
 
 .btn-danger:hover{ 
  background-color: #8f3d66; 
-font-size: 23px;
+font-size: 30px;
 text-align: center;
 
 }
@@ -151,6 +151,25 @@ font-size: 18px;
   }
 
  /* banner web title */
+
+
+ @media (max-width: 768px) {
+.banner h2{
+
+  padding-left:0px !important;
+width: 100% !important;
+
+
+}
+}
+
+@media (max-width: 768px) {
+.banner img{
+padding-left:0px !important;
+width: 90% !important;
+
+}
+}
 
 .navbar-default {
   background: none;
