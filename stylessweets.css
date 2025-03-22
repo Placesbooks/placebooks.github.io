@@ -23,11 +23,40 @@ body{
   } */
   /* This is background with image */
 
+
 header{
    
-padding-left: 0px; 
+
 
 }
+
+
+.title-image img {
+   
+  padding-left: 380px;
+
+}
+
+
+ @media (max-width: 768px) {
+.title-image img{
+  padding :0 4%;
+ display: inline-block;
+ width: 126%;
+
+}
+}
+
+
+ @media (max-width: 768px) {
+.title-image h2{
+ padding-left: 90px;
+
+}
+}
+
+
+
 
 h1{
    display: block;
@@ -47,6 +76,7 @@ h2{color: #9d4848;
   display: block;
     margin: 0px auto;
      text-align: center;
+     
       font-size: 20px;  
 }  
 
@@ -284,6 +314,7 @@ padding-left:0px !important;
 .col-xs-6{
   padding :0 10%;
  display: inline-block;
+width: 100%;
 
 }
 }
@@ -292,7 +323,7 @@ padding-left:0px !important;
 
  @media (max-width: 768px) {
 #filltext{
-width: 100% !important;
+width: 130% !important;
 
 
 }
@@ -555,6 +586,14 @@ list-style-type: none;
   background-color: white; /* Add an active/current color */
 
 
+
+ @media (max-width: 768px) {
+.icon-bar{
+width: 130%;
+
+}
+}
+
 .footer{
 
  padding-left: 0px;
@@ -568,6 +607,15 @@ list-style-type: none;
 -webkit-backface-visibility: hidden;
 }
 /* the footer content*/
+
+
+ @media (max-width: 768px) {
+.footer{
+width: 130%;
+
+}
+}
+
 
 
 
