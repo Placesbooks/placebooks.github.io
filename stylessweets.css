@@ -25,9 +25,26 @@ body{
 
 
 header{
-   
+}
 
 
+
+ @media (max-width: 768px) {
+.blogtitle img {
+
+ width: 95%;
+  
+
+}
+}
+
+
+ @media (max-width: 768px) {
+.blogtitle h1{
+
+ padding-right: 40px;
+
+}
 }
 
 
@@ -42,7 +59,7 @@ header{
 .title-image img{
   padding :0 4%;
  display: inline-block;
- width: 126%;
+ width: 95%;
 
 }
 }
@@ -50,11 +67,12 @@ header{
 
  @media (max-width: 768px) {
 .title-image h2{
- padding-left: 90px;
+  font-size: 17px;
+  padding-left: 4px;
+ padding-right: 30px;
 
 }
 }
-
 
 
 
@@ -179,6 +197,15 @@ text-align: left;
 }
 
 
+@media (max-width: 768px) { 
+.recipe img{
+
+width: 110%;
+padding-right: 30px;
+}
+
+
+
 
 
 ul{color: red;
@@ -277,7 +304,7 @@ background: transparent !important;
     margin-top: 0; }
 
 }
-
+}
 /*Dropdown menu a small screen hover color*/
 
 
@@ -323,7 +350,7 @@ width: 100%;
 
  @media (max-width: 768px) {
 #filltext{
-width: 130% !important;
+width: 100% !important;
 
 
 }
@@ -343,7 +370,7 @@ width: 100% !important;
 
 @media (max-width: 768px) {
 
-  #footer{
+.footer{
 
  padding-left: 0px;
  padding-right: 0px;
@@ -364,13 +391,14 @@ width: 100% !important;
 @media (min-width: 360px) 
 and    (max-width: 390px) {
   body {
-  width: 107% !important; /* Full-width in small devices */
+  width: 100% !important; /* Full-width in small devices */
   /* Dark-grey background */
   overflow: auto; /* Overflow due to float */
-}
+
+
 /* icon bar at the bottom small screens */
 
-}
+
 
 
 
@@ -589,7 +617,7 @@ list-style-type: none;
 
  @media (max-width: 768px) {
 .icon-bar{
-width: 130%;
+width: 100%;
 
 }
 }
@@ -609,11 +637,7 @@ width: 130%;
 /* the footer content*/
 
 
- @media (max-width: 768px) {
-.footer{
-width: 130%;
 
-}
 }
 
 
