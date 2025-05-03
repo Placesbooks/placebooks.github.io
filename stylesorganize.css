@@ -381,7 +381,7 @@ display: none;
  @media (max-width: 768px){
 .mobilephotocontent{
 display: inline-block;
-background-image: url("Images/mobileinfo.jpg");
+background-image: url("Images/mobileclean.jpg");
 
   width:300px;
   height:1000px;
