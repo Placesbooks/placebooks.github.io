@@ -33,6 +33,7 @@ h2{
 }
 
 h2 a{
+   
 width: 80%;
 height: 105%;
 
@@ -41,22 +42,118 @@ height: 105%;
 }
 
 
-.btn-danger, .btn-danger:active,.btn-danger:visited { 
+.btn-danger1{ 
+background-image: url("Images/button 1.jpg");
+
+font-size:60px;
+color: white;
+ width:600px;
+  height:390px;
+
+  background-size: cover;
+ 
+  padding-left: 40px;
+
+}
+.btn-danger, .btn-danger:active,.btn-danger:visited {
+ 
  background-color:  #800040; 
-font-size: 30px;
+
 text-align: center;
 
 
 }
 
-.btn-danger:hover{ 
+.btn-danger1:hover{ 
+  background-image: url("Images/button 1 click.jpg");
+  background-size: cover;
+  
  background-color: #8f3d66; 
-font-size: 30px;
+
 text-align: center;
 
 }
 
 
+.btn-danger2{ 
+background-image: url("Images/button 2.jpg");
+
+font-size:60px;
+color: white;
+ width:600px;
+  height:390px;
+
+  background-size: cover;
+ 
+  padding-left: 40px;
+
+}
+.btn-danger, .btn-danger:active,.btn-danger:visited {
+ 
+ background-color:  #800040; 
+
+text-align: center;
+
+
+}
+
+.btn-danger2:hover{ 
+  background-image: url("Images/button 2 click.jpg");
+  background-size: cover;
+  
+ background-color: #8f3d66; 
+
+text-align: center;
+
+}
+
+
+.btn-danger3{ 
+background-image: url("Images/button 3.jpg");
+
+font-size:60px;
+color: white;
+ width:600px;
+  height:390px;
+
+  background-size: cover;
+ 
+  padding-left: 40px;
+
+}
+.btn-danger, .btn-danger:active,.btn-danger:visited {
+ 
+ background-color:  #800040; 
+
+text-align: center;
+
+
+}
+
+.btn-danger3:hover{ 
+  background-image: url("Images/button 3 click.jpg");
+  background-size: cover;
+  
+ background-color: #8f3d66; 
+
+text-align: center;
+
+}
+
+ @media (max-width: 768px) {
+.btn-danger1,.btn-danger2,.btn-danger3{ 
+
+color: white;
+ width:300px;
+  height:190px;
+
+  background-size: cover;
+ 
+  padding-left: 40px;
+
+}
+
+}
 
 
  /* 
