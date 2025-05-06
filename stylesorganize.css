@@ -4,7 +4,7 @@ html {
 
 body{
 
-  background-color: #ffffff;
+  background-color: #ffe6f2;
   
 }
  /* This is background without image */
@@ -133,8 +133,8 @@ h1{
     margin: 0px auto;
      text-align: center;
   font-family: 'BenchNine', sans-serif;
-  font-size: 50px;
-    color: #154c79; 
+  font-size: 60px;
+    color: #993366; 
 margin-top: 0px;
      
 }
@@ -143,7 +143,7 @@ margin-top: 0px;
 
 
 h2{
-  color: 8B320C;
+  color: #ac3973;
   display: block;
     margin: 0px auto;
      text-align: center;
@@ -155,7 +155,7 @@ h2{
 
 
 h3, a{ 
-  color:   #154c79;
+  color:   #993366;
 font-size: 30px;
 text-align: center;
   display: block;
@@ -331,14 +331,13 @@ width: 90%;
 
 .photocontent{
 
-background-image: url("Images/webclean.jpeg");
+background-image: url("Images/webclean.jpg");
 
-  width:950px;
-  height:1000px;
-
+  width:1000px;
+  height:1500px;
   background-size: cover;
- 
-  padding-left: 40px;
+
+  margin-left: 60px;
 
 
  
@@ -384,7 +383,7 @@ display: inline-block;
 background-image: url("Images/mobileclean.jpeg");
 
   width:300px;
-  height:1000px;
+  height:1600px;
   background-size: cover;
  padding-right: 20px;
 width: 100%;
@@ -614,7 +613,7 @@ textarea:focus {
 
 /*form*/
 
-
+/*
 .menubottom a{
 
 color:#6b6666;
@@ -627,12 +626,12 @@ font-size: 18px;
 list-style-type: none;
 -webkit-backface-visibility: hidden;
 
-}
+}*/
 /* the bottom menu links */
 
 .icon-bar {
   width: 100%; /* Full-width */
-  background-color: #b3e6ff; /* Dark-grey background */
+  background-color:    #f4c3d9; /* Dark-grey background */
   overflow: auto; /* Overflow due to float */
 }
 /* icon bar at the bottom  */
