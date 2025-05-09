@@ -4,7 +4,7 @@ html {
 
 body{
 
-  background-color:  #eadad1;
+  background-color:  #ffffff;
   
 }
  /* This is background without image */
@@ -259,6 +259,52 @@ width: 80%;
 /* Content in myphoto full screen sizing */
 
 
+.biocontent{
+
+background-image: url("Imagesyog/bioyog.jpg");
+
+background-size: 500px;
+  width:500px;
+  height:1700px;
+
+  margin-left: 160px;
+
+
+ 
+}
+
+
+.studiocontent{
+
+background-image: url("Imagesyog/studioyog.jpg");
+
+background-size: 500px;
+  width:500px;
+  height:1500px;
+
+  margin-left: 120px;
+
+
+ 
+}
+
+
+.blogcontent{
+
+background-image: url("Imagesyog/");
+
+background-size: 500px;
+  width:500px;
+  height:1700px;
+
+  margin-left: 160px;
+
+
+ 
+}
+
+
+
  @media (max-width: 768px) {
 #myphoto{
 padding-left:0px !important;
@@ -294,6 +340,81 @@ width: 100% !important;
 }
 }
  /* Content in measurements in small screen sizing */
+
+@media (max-width: 768px) {
+.biocontent{
+
+background-image: url("Imagesyog/bioyog.jpg");
+
+background-size: 350px;
+  width:330px;
+  height:1200px;
+
+  margin-left: 0px;
+  margin-right: 2px;
+
+ 
+}
+}
+ /* Content in measurements in small screen sizing */
+
+@media (max-width: 768px) {
+.studiocontent{
+
+background-image: url("Imagesyog/studioyog.jpg");
+
+background-size: 310px;
+  width:310px;
+  height:950px;
+
+  margin-left: 0px;
+ 
+
+
+ 
+}
+}
+ /* Content in measurements in small screen sizing */
+
+
+
+@media (max-width: 768px) {
+.blogcontent{
+
+background-image: url("Imagesyog/");
+
+background-size: 350px;
+  width:330px;
+  height:1200px;
+
+  margin-left: 0px;
+  margin-right: 2px;
+
+ 
+}
+}
+ /* Content in measurements in small screen sizing */
+
+@media (max-width: 768px) {
+.othercontent{  
+/* If I add more content, this blank
+readyto use.*/
+
+background-image: url("Imagesyog/");
+
+background-size: 310px;
+  width:310px;
+  height:950px;
+
+  margin-left: 0px;
+ 
+
+
+ 
+}
+}
+ /* Content in measurements in small screen sizing */
+
 
 
 @media (max-width: 768px) {
