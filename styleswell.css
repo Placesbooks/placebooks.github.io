@@ -159,7 +159,7 @@ color: #8B320C;
 
 
 .navbar a:hover {
-  color: red !important; /* Add a hover color */
+  color: #081b2b !important; /* Add a hover color */
 background: transparent !important;
 }
 
@@ -179,7 +179,7 @@ margin-right: 50px;
 
 @media (max-width: 768px) { 
 .dropdown-menu a{
-color: red !important;
+color: #081b2b !important;
 text-align: center !important;
 margin-right: 20px;}
 
@@ -197,7 +197,7 @@ margin-right: 20px;}
 /*Dropdown menu big screen*/
 
 .dropdown a:hover  {
-color:  red !important;
+color:  #081b2b !important;
 background: transparent !important;
 
 }
@@ -265,7 +265,7 @@ background-image: url("Imagesyog/biopilates.JPG");
 
 background-size: 500px;
   width:500px;
-  height:1700px;
+  height:1550px;
 
   margin-left: 160px;
 
