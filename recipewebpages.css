@@ -42,126 +42,206 @@ height: 105%;
 }
 
 
-.btn-danger1{ 
-background-image: url("imagespage/button 1.jpg");
+.title-image {
 
-font-size:60px;
-color: white;
- width:600px;
-  height:390px;
+background-image: url("imagesicons/recipetitle.jpg");
+background-size: 500px;
+  width:500px;
+  height:100px;
+background-repeat: no-repeat;
 
-  background-size: cover;
- 
-  padding-left: 40px;
+background-position: 250px;
+
+ display: inline-block;
+ width: 100%;
+
+
 
 }
-.btn-danger, .btn-danger:active,.btn-danger:visited {
- 
- background-color:  #800040; 
 
+
+.btn-danger1{ 
+
+background-image: url("imagespage/button 1.jpg");
+background-size: 500px;
+background-repeat: no-repeat;
+font-size:60px;
+color: white;
+width:600px;
+height:390px;
+padding-left: 40px;
+
+}
+
+.btn-danger1, .btn-danger1:active,.btn-danger1:visited {
+
+ background-size: 500px;
 text-align: center;
-
+background-repeat: no-repeat;
 
 }
 
 .btn-danger1:hover{ 
-  background-image: url("imagespage/button 1 click.jpg");
-  background-size: cover;
-  
- background-color: #8f3d66; 
 
+background-image: url("imagespage/button 1 click.jpg");
+background-size: 500px;
+background-repeat: no-repeat;
 text-align: center;
 
 }
 
 
 .btn-danger2{ 
-background-image: url("imagespage/button 2.jpg");
 
+background-image: url("imagespage/button 2.jpg");
+background-size: 500px;
+background-repeat: no-repeat;
 font-size:60px;
 color: white;
  width:600px;
   height:390px;
-
-  background-size: cover;
  
   padding-left: 40px;
 
 }
-.btn-danger, .btn-danger:active,.btn-danger:visited {
- 
- background-color:  #800040; 
 
+.btn-danger2, .btn-danger2:active,.btn-danger2:visited {
+
+background-size: 500px;
 text-align: center;
+background-repeat: no-repeat;
 
 
 }
 
 .btn-danger2:hover{ 
-  background-image: url("imagespage/button 2 click.jpg");
-  background-size: cover;
-  
- background-color: #8f3d66; 
 
+  background-image: url("imagespage/button 2 click.jpg");
+  background-size: 500px;
+background-repeat: no-repeat;
 text-align: center;
 
 }
 
 
-.btn-danger3{ 
-background-image: url("imagespage/button 3.jpg");
+.btn-danger3{
 
+background-image: url("imagespage/button 3.jpg");
+background-size: 500px;
+background-repeat: no-repeat;
 font-size:60px;
 color: white;
  width:600px;
   height:390px;
-
-  background-size: cover;
  
   padding-left: 40px;
 
 }
-.btn-danger, .btn-danger:active,.btn-danger:visited {
- 
- background-color:  #800040; 
 
+.btn-danger3, .btn-danger3:active,.btn-danger3:visited {
+
+background-size: 500px;
 text-align: center;
+background-repeat: no-repeat;
+
 
 
 }
 
 .btn-danger3:hover{ 
-  background-image: url("imagespage/button 3 click.jpg");
-  background-size: cover;
-  
- background-color: #8f3d66; 
 
+  background-image: url("imagespage/button 3 click.jpg");
+background-size: 500px;
+background-repeat: no-repeat;
 text-align: center;
 
 }
 
  @media (max-width: 768px) {
 .btn-danger1,.btn-danger2,.btn-danger3{ 
-
+background-size:280px;
+background-repeat: no-repeat;
 color: white;
- width:300px;
+ width:280px;
   height:190px;
 
-  background-size: cover;
  
+  padding-left: 0px;
 
 }
-
 }
 
 
- /* 
-.btn-danger, .btn-danger:hover, .btn-danger:active, .btn-danger:visited { 
- background-color:  #800040!important; 
-font-size: 23px;
-text-align: center; */
 
-h3{ color: red;
+@media (max-width: 768px) {
+.btn-danger1, .btn-danger2,.btn-danger3,
+.btn-danger1:active, .btn-danger2:active,
+.btn-danger3:active,
+.btn-danger1:visited,.btn-danger2:visited,
+.btn-danger3:visited { 
+background-size: 280px;
+text-align: center;
+background-repeat: no-repeat;
+
+}
+}
+
+
+@media (max-width: 768px) {
+.btn-danger1:hover{ 
+
+background-image: url("imagespage/button 1 click.jpg");
+background-size: 280px;
+background-repeat: no-repeat;
+text-align: center;
+
+
+}
+}
+
+@media (max-width: 768px) {
+.btn-danger2:hover{
+
+background-image: url("imagespage/button 2 click.jpg");
+background-size: 280px;
+background-repeat: no-repeat;
+text-align: center;
+
+}
+}
+
+@media (max-width: 768px) {
+.btn-danger3:hover{
+
+background-image: url("imagespage/button 3 click.jpg");
+background-size: 280px;
+background-repeat: no-repeat;
+text-align: center;
+
+}
+}
+
+@media (max-width: 768px) {
+.title-image {
+
+background-image: url("imagesicons/recipetitle.jpg");
+background-size: 280px;
+  width:280px;
+  height:60px;
+  padding-left: 0px;
+  padding-right: 0px;
+background-repeat: no-repeat;
+background-position: 0px;
+ display: inline-block;
+ width: 100%;
+
+}
+}
+
+ 
+h3{ 
+
+  color: red;
 
 font-size: 23px;
 text-align: center;
@@ -236,19 +316,21 @@ font-size: 18px;
   border-bottom: 5px solid #cc5200;
 }
 
+ /*
 .banner{
  
     display: block;
     margin: 0px auto;
     text-align: center;
     color: #cc0000;
+  
 
     
-  }
+  }*/
 
  /* banner web title */
 
-
+ /*
  @media (max-width: 768px) {
 .banner h2{
 
@@ -261,11 +343,14 @@ width: 100% !important;
 
 @media (max-width: 768px) {
 .banner img{
+
 padding-left:0px !important;
 width: 90% !important;
 
 }
 }
+
+*/
 
 .navbar-default {
   background: none;
@@ -364,14 +449,16 @@ width: 50%;
 }
 
 @media (max-width: 768px){
+.banner{
 
-.banner{ text-align: left;
-  padding-left: 0px !important;
+ text-align: left;
+padding-left: 0px !important;
 
  
 
 
-}}
+}
+}
 
 /*Content in banner small screen sizing*/
 
@@ -379,7 +466,8 @@ width: 50%;
 #myphoto{
 padding-left:45.5px !important;
 
-}}
+}
+}
 
  /* Content in myphoto small screen sizing */
 
@@ -390,7 +478,8 @@ width: 270px;
 height: auto;
 
 
-}}
+}
+}
 
  /* Content in myphoto small screen sizing */
 
@@ -426,7 +515,9 @@ padding-left:45px !important;
 /* Content in p fill form small screen sizing */
 
  @media (max-width: 768px) {
-#con{width: 70%;
+#con{
+
+  width: 70%;
   padding-left: 0px;
 
 }
@@ -436,6 +527,7 @@ padding-left:45px !important;
 
  @media (max-width: 768px) {
 #measurements{
+
 width: 95% !important;
 
 }
