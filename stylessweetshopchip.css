@@ -364,6 +364,7 @@ font-size: 30px;
 
 
 .itemdescription p {
+  font-family: 'arial';
   text-align: left;
 color:    #343232;
 font-size: 23px;
