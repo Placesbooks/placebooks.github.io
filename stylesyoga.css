@@ -10,9 +10,14 @@ body{
  /* This is background without image */
 
 
-.bg-image{
- background-image: url("Imagesyog/backg.jpg");
+header{
+}
 
+
+.bg-image{
+ background-image: url("IMAGES YOGA/WEBPAGES/backg.jpg");
+
+  
   height:400px;
 
   background-position: top;
@@ -22,6 +27,58 @@ body{
 
   } 
   /* This is background with image */
+
+
+header{
+}
+
+.mobilebanner{
+
+display: none;
+ 
+}
+
+ /*NOT DISPLAY ON WEBVIEW*/
+
+@media (max-width: 768px) {
+.webbanner{
+
+ display: none;!important!;
+
+}
+}
+ /*NOT DISPLAY ON MOBILE*/
+
+
+
+
+ @media (max-width: 768px) {
+.mobilebanner{
+
+display: inline-block;!important!;
+ 
+}
+}
+
+ @media (max-width: 768px) {
+.mobilebanner h1{
+ font-size: 45px;
+ padding-right: 0px;
+  padding-left: 2px;
+
+}
+}
+
+
+ @media (max-width: 768px) {
+.mobilebanner h2{
+  font-size: 19px;
+  padding-left: 19px;
+ padding-right: 20px;
+
+}
+}
+
 
 
 h1{
@@ -54,7 +111,7 @@ h3{
   color:   #8b4141;
 font-size: 23px;
 text-align: center;
-  display: block;
+display: block;
 
 
 }
@@ -67,13 +124,14 @@ h4{
   color:  #6a6868;
   font-size: 18px;
   letter-spacing: 0px;
-   text-align: center;
+  text-align: center;
 
 
 }
 
 
-h5{font-family: 'Arial',serif;
+h5{
+  font-family: 'Arial',serif;
   color: #000000;
   font-size: 11px;
   letter-spacing: 1px;
@@ -82,7 +140,8 @@ h5{font-family: 'Arial',serif;
 
 /* This is copyright message */
 
-h6{font-family: 'Arial',serif;
+h6{
+  font-family: 'Arial',serif;
   color:  #6a6868;
   font-size: 16px;
   letter-spacing: 1px;
@@ -158,15 +217,33 @@ color: #8B320C;
 /* navigation selected active item on menu */
 
 
-.navbar a:hover {
-  color: red !important; /* Add a hover color */
-background: transparent !important;
+
+.dropdown-menu a{
+color: white !important;
+text-align: center !important;
+margin-right: 50px;
+   
+}
+/*Dropdown menu a big screen*/
+
+
+@media (max-width: 768px) { 
+.dropdown-menu a{
+color: red !important;
+text-align: center !important;
+margin-right: 20px;
+}
+}
+/*Dropdown menu a small screen*/
+
+
+.dropdown-menu{
+  font-size: 19px; 
+  background: none;
+
 }
 
-
-
-/*navbar menu a big screen hover color*/
-
+/*Dropdown menu big screen*/
 
 
 .dropdown-menu a{
@@ -181,8 +258,9 @@ margin-right: 50px;
 .dropdown-menu a{
 color: red !important;
 text-align: center !important;
-margin-right: 20px;}
+margin-right: 20px;
 
+}
 }
 /*Dropdown menu a small screen*/
 
@@ -196,12 +274,20 @@ margin-right: 20px;}
 
 /*Dropdown menu big screen*/
 
+
 .dropdown a:hover  {
 color:  red !important;
 background: transparent !important;
 
 }
 
+/*Dropdown menu a big screen hover color*/
+
+
+.navbar a:hover {
+  color:  #4d0026 !important; /* Add a hover color */
+background: transparent !important;
+}
 
 /*navbar menu a big screen hover color*/
 
@@ -212,27 +298,17 @@ background: transparent !important;
     margin-top: 0; }
 
 }
+}
 
 /*Dropdown menu a small screen hover color*/
 
-
-.navbar-toggle{
+/*.navbar-toggle{
 background: white !important;
 
-}
+}*/
 
 /*Navbar collapse Icon Sandwich menu color*/
 
-.container{
-
-text-align: center;
- 
-font-family: 'Arial',serif;
-font-size: 25px;
- margin-bottom: 135px;   /*this is for dropdown bottom space*/
-
-}
-/*this is for dropdown menu*/
 
 
 
@@ -243,8 +319,8 @@ font-size: 25px;
   padding-top: 0px ;
 padding-right: 0px; 
  padding-bottom: 0px ; 
-padding-left: 200px; 
-width: 80%;
+padding-left: 100px; 
+width: 90%;
 }
   /*{padding :0 2px;} had this in .col-xs-6*/
 
@@ -261,13 +337,15 @@ width: 80%;
 
 .biocontent{
 
-background-image: url("Imagesyog/bioyog.jpg");
+background-image: url("IMAGES YOGA/WEBPAGES/bioyog.jpg");
 
-background-size: 500px;
-  width:500px;
+width:500px;
   height:1700px;
+  background-size: cover;
 
-  margin-left: 160px;
+ 
+
+  margin-left: 300px;
 
 
  
@@ -276,13 +354,45 @@ background-size: 500px;
 
 .studiocontent{
 
-background-image: url("Imagesyog/studioyog.jpg");
+background-image: url("IMAGES YOGA/WEBPAGES/studioyog.jpg");
 
-background-size: 500px;
+
   width:500px;
   height:1500px;
+    background-size: cover;
 
-  margin-left: 120px;
+  margin-left: 260px;
+
+
+ 
+}
+
+
+.mephoto{
+
+background-image: url("IMAGES YOGA/WEBPAGES/COBRA.jpg");
+
+
+  width:500px;
+  height:300px;
+  background-size: cover;
+
+  margin-left: 260px;
+
+
+ 
+}
+
+.nurturephoto{
+
+background-image: url("IMAGES YOGA/WEBPAGES/");
+
+
+  width:400px;
+  height:1700px;
+  background-size: cover;
+
+  margin-left: 10px;
 
 
  
@@ -291,13 +401,14 @@ background-size: 500px;
 
 .blogcontent{
 
-background-image: url("Imagesyog/");
+background-image: url("IMAGES YOGA/WEBPAGES/");
 
-background-size: 500px;
-  width:500px;
+
+  width:400px;
   height:1700px;
+  background-size: cover;
 
-  margin-left: 160px;
+  margin-left: 10px;
 
 
  
@@ -314,15 +425,149 @@ padding-left:0px !important;
 
  @media (max-width: 768px) {
 .col-xs-6{
-  padding :0 10%;
+  padding :0 8%;
  display: inline-block;
+width: 100%;
+
+
 
 }
 }
  /* Content in Row small screen sizing */
 
 
+
+@media (max-width: 768px) {
+.biocontent{
+ display: inline-block; 
+background-image: url("IMAGES YOGA/WEBPAGES/bioyog.jpg");
+
+
+  width:700px;
+  height:1200px;
+
+  background-size: cover;
+
+  margin-left: 5px;
+  margin-right: -1px;
+
+width: 100%;
+
+ 
+}
+}
+ /* Content in measurements in small screen sizing */
+
+@media (max-width: 768px) {
+.studiocontent{
+ display: inline-block; 
+background-image: url("IMAGES YOGA/WEBPAGES/studioyog.jpg");
+
+
+  width:300px;
+
+  height:1000px;
+
+
+  background-size: cover;
+  margin-left: 6px;
+  margin-right: -1px;
+
+width: 100%;
+
+
+
+ 
+}
+}
+ /* Content in measurements in small screen sizing */
+
+@media (max-width: 768px) {
+.mephoto{
+
+background-image: url("IMAGES YOGA/WEBPAGES/COBRA.jpg");
+
+
+  width:400px;
+  height:200px;
+
+  background-size: cover;
+  margin-left: 5px;
+
+
+width: 100%;
+
+ 
+}
+}
+ /* Content in small screen sizing */
+
+
  @media (max-width: 768px) {
+.nurturephoto{
+
+background-image: url("IMAGES YOGA/WEBPAGES/");
+
+background-size: 350px;
+  width:300px;
+  height:1200px;
+
+  background-size: cover;
+  margin-left: -35px;
+
+
+width: 100%;
+
+ 
+}
+}
+ /* Content in small screen sizing */
+
+@media (max-width: 768px) {
+.blogcontent{
+
+background-image: url("IMAGES YOGA/WEBPAGES/");
+
+background-size: 350px;
+  width:300px;
+  height:1200px;
+
+  background-size: cover;
+  margin-left: -35px;
+
+
+width: 100%;
+
+ 
+}
+}
+ /* Content in measurements in small screen sizing */
+
+@media (max-width: 768px) {
+.othercontent{  
+/* If I add more content, this blank
+readyto use.*/
+
+background-image: url("IMAGES YOGA/WEBPAGES/");
+
+
+  width:300px;
+  height:950px;
+
+background-size: cover;
+  margin-left: -35px;
+
+
+width: 100%;
+
+
+
+ 
+}
+}
+ /* Content in measurements in small screen sizing */
+
+@media (max-width: 768px) {
 #filltext{
 width: 100% !important;
 
@@ -341,108 +586,41 @@ width: 100% !important;
 }
  /* Content in measurements in small screen sizing */
 
-@media (max-width: 768px) {
-.biocontent{
-
-background-image: url("Imagesyog/bioyog.jpg");
-
-background-size: 350px;
-  width:330px;
-  height:1200px;
-
-  margin-left: 0px;
-  margin-right: 2px;
-
- 
-}
-}
- /* Content in measurements in small screen sizing */
-
-@media (max-width: 768px) {
-.studiocontent{
-
-background-image: url("Imagesyog/studioyog.jpg");
-
-background-size: 310px;
-  width:310px;
-  height:950px;
-
-  margin-left: 0px;
- 
-
-
- 
-}
-}
- /* Content in measurements in small screen sizing */
-
-
-
-@media (max-width: 768px) {
-.blogcontent{
-
-background-image: url("Imagesyog/");
-
-background-size: 350px;
-  width:330px;
-  height:1200px;
-
-  margin-left: 0px;
-  margin-right: 2px;
-
- 
-}
-}
- /* Content in measurements in small screen sizing */
-
-@media (max-width: 768px) {
-.othercontent{  
-/* If I add more content, this blank
-readyto use.*/
-
-background-image: url("Imagesyog/");
-
-background-size: 310px;
-  width:310px;
-  height:950px;
-
-  margin-left: 0px;
- 
-
-
- 
-}
-}
- /* Content in measurements in small screen sizing */
-
 
 
 @media (max-width: 768px) {
 
-  #footer{
+.footer{
 
  padding-left: 0px;
  padding-right: 0px;
 
   position: absolute;
   bottom: 0;
-  width: 100%;
+  width: 100% !important;
   /* Set the fixed height of the footer here */
   height: 0px;
 -webkit-backface-visibility: hidden;
-}
+
 /* the footer content*/
 
 
-
-
-
 }
 }
 
+@media (min-width: 360px) 
+and    (max-width: 390px) {
+  body {
+  width: 100% !important; /* Full-width in small devices */
+  /* Dark-grey background */
+  overflow: auto; /* Overflow due to float */
 
 
-/*footer*/
+/* icon bar at the bottom small screens */
+
+
+
+}}
 
 .section{
 padding :0px;
@@ -465,6 +643,16 @@ font-family: 'Arial',serif;
 }
 
 
+.container{
+
+text-align: center;
+ 
+font-family: 'Arial',serif;
+font-size: 25px;
+ margin-bottom: 135px;   /*this is for dropdown bottom space*/
+
+}
+/*this is for dropdown menu*/
 
 
 
@@ -477,29 +665,31 @@ text-align: center;
 
 /*mytext link color*/
 
-.filltext{
+#filltext{
 
+  width: 100%;
 
-
-
-  text-align: center;
-
+  display: inline;
   font-family: 'Arial',serif;
   font-size: 22px;
+   padding-left: 0px;
 }
 
 
-#measure{width:30%;
- padding-left:}
+#measure{
+ width:30%;
+ padding-left:
+}
 
 
-#measurements{width:50%;
+#measurements{
+  width:30%;
  padding-left:
 }
 /* measurement text */
 
 .artist{
-      display:none;
+  display:none;
     }
 /* Field must be filled */
 
@@ -592,7 +782,7 @@ textarea:focus {
 
 /*form*/
 
-
+/*
 .menubottom a{
 
 color:#6b6666;
@@ -605,7 +795,7 @@ font-size: 18px;
 list-style-type: none;
 -webkit-backface-visibility: hidden;
 
-}
+}*/
 /* the bottom menu links */
 
 .icon-bar {
@@ -614,14 +804,6 @@ list-style-type: none;
   overflow: auto; /* Overflow due to float */
 }
 /* icon bar at the bottom  */
-
-
-@media (max-width: 768px) { 
-.icon-bar a{
-width: 12% !important; /* Equal width (5 icons with 20% width each = 100%) */
-
-}}
-/*icon-bar a on small screen*/
 
 
 
@@ -646,6 +828,27 @@ width: 12% !important; /* Equal width (5 icons with 20% width each = 100%) */
 
  /*.active {
   background-color: white; /* Add an active/current color */
+
+
+ @media (max-width: 768px) {
+.icon-bar{
+width: 100%;
+
+}
+}
+
+/*icon-bar a on small screen*/
+
+@media (max-width: 768px) { 
+.icon-bar a{
+width: 12% !important; /* Equal width (5 icons with 20% width each = 100%) */
+
+}
+}
+/*icon-bar icons a on small screen*/
+
+/* Equal width (5 icons with 20% width each = 100%) */
+
 
 
 
