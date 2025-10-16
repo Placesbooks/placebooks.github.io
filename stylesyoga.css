@@ -383,16 +383,16 @@ background-image: url("IMAGES YOGA/WEBPAGES/COBRA.jpg");
  
 }
 
-.nurturephoto{
+.nurturecontent{
 
-background-image: url("IMAGES YOGA/WEBPAGES/");
+background-image: url("IMAGES YOGA/WEBPAGES/NURTURE.jpg");
 
 
-  width:400px;
+  width:500px;
   height:1700px;
   background-size: cover;
 
-  margin-left: 10px;
+  margin-left: 350px;
 
 
  
@@ -504,16 +504,17 @@ width: 100%;
 
 
  @media (max-width: 768px) {
-.nurturephoto{
+.nurturecontent{
 
-background-image: url("IMAGES YOGA/WEBPAGES/");
+background-image: url("IMAGES YOGA/WEBPAGES/NURTURE.jpg");
 
-background-size: 350px;
-  width:300px;
+
+  width:370px;
   height:1200px;
 
   background-size: cover;
-  margin-left: -35px;
+  margin-left: 3px;
+  margin-right: -30px;
 
 
 width: 100%;
