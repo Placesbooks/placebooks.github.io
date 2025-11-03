@@ -119,6 +119,21 @@ display: block;
 /* This is paragraph title*/
 
 
+.article{ 
+  color:   #8b4141;
+font-size: 20px;
+text-align: center;
+display: block;
+padding-right:200px ;
+
+
+}
+
+/* This is paragraph title*/
+
+
+
+
 h4{
   font-family: 'BenchNine', sans-serif;
   color:  #6a6868;
@@ -340,7 +355,7 @@ width: 90%;
 background-image: url("IMAGES YOGA/WEBPAGES/bioyog.jpg");
 
 width:500px;
-  height:1700px;
+  height:1860px;
   background-size: cover;
 
  
@@ -358,7 +373,7 @@ background-image: url("IMAGES YOGA/WEBPAGES/studioyog.jpg");
 
 
   width:500px;
-  height:1500px;
+  height:2000px;
     background-size: cover;
 
   margin-left: 260px;
@@ -399,16 +414,16 @@ background-image: url("IMAGES YOGA/WEBPAGES/NURTURE.jpg");
 }
 
 
-.blogcontent{
+.article1{
 
-background-image: url("IMAGES YOGA/WEBPAGES/");
+background-image: url("IMAGES YOGA/WEBPAGES/article 1.jpg");
 
 
   width:400px;
-  height:1700px;
+  height:7200px;
   background-size: cover;
 
-  margin-left: 10px;
+  margin-left: 290px;
 
 
  
@@ -444,7 +459,7 @@ background-image: url("IMAGES YOGA/WEBPAGES/bioyog.jpg");
 
 
   width:700px;
-  height:1200px;
+  height:1300px;
 
   background-size: cover;
 
@@ -466,7 +481,7 @@ background-image: url("IMAGES YOGA/WEBPAGES/studioyog.jpg");
 
   width:300px;
 
-  height:1000px;
+  height:1400px;
 
 
   background-size: cover;
@@ -526,16 +541,16 @@ width: 100%;
  /* Content in small screen sizing */
 
 @media (max-width: 768px) {
-.blogcontent{
+.article1{
 
-background-image: url("IMAGES YOGA/WEBPAGES/");
+background-image: url("IMAGES YOGA/WEBPAGES/article 1.jpg");
 
 background-size: 350px;
   width:300px;
-  height:1200px;
+  height:6240px;
 
   background-size: cover;
-  margin-left: -35px;
+  margin-left: -19px;
 
 
 width: 100%;
