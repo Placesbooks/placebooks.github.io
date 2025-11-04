@@ -11,6 +11,8 @@ body{
 
 
 header{
+
+  margin-bottom: 50px;
 }
 
 
@@ -89,7 +91,7 @@ h1{
   font-size: 50px;
     color: #154c79; /*color: #342218; */
 margin-top: 0px;
-padding-top: 50px;
+padding-top: 40px;
      
 }
 
@@ -195,6 +197,7 @@ li{color: #ffffff;
 list-style-type: none;
 text-align: center;
 
+
 }
 
 
@@ -234,7 +237,7 @@ color: #8B320C;
 
 
 .dropdown-menu a{
-color: white !important;
+color: #99377c !important;
 text-align: center !important;
 margin-right: 50px;
    
@@ -244,36 +247,14 @@ margin-right: 50px;
 
 @media (max-width: 768px) { 
 .dropdown-menu a{
-color: red !important;
+  font-size: 23px;
+color: #bd3a96 !important;
+background-color: rgba(230, 218, 226, 0.5); 
+    /* Red with 50% opacity */
+ 
 text-align: center !important;
 margin-right: 20px;
-}
-}
-/*Dropdown menu a small screen*/
 
-
-.dropdown-menu{
-  font-size: 19px; 
-  background: none;
-
-}
-
-/*Dropdown menu big screen*/
-
-
-.dropdown-menu a{
-color: white !important;
-text-align: center !important;
-margin-right: 50px;
-   
-}
-/*Dropdown menu a big screen*/
-
-@media (max-width: 768px) { 
-.dropdown-menu a{
-color: red !important;
-text-align: center !important;
-margin-right: 20px;
 
 }
 }
@@ -285,9 +266,11 @@ margin-right: 20px;
   font-size: 19px; 
   background: none;
 
+
 }
 
 /*Dropdown menu big screen*/
+
 
 
 .dropdown a:hover  {
@@ -310,8 +293,10 @@ background: transparent !important;
 @media (min-width: 768px) { 
 .dropdown:hover .dropdown-menu {
     display: block;
-    margin-top: 0; }
+    margin-top: 0;
 
+
+ 
 }
 }
 
@@ -408,6 +393,22 @@ background-image: url("IMAGES YOGA/WEBPAGES/NURTURE.jpg");
   background-size: cover;
 
   margin-left: 350px;
+
+
+ 
+}
+
+
+.corporate{
+
+background-image: url("IMAGES YOGA/WEBPAGES/corporate.jpg");
+
+
+  width:400px;
+  height:2100px;
+  background-size: cover;
+
+  margin-left: 290px;
 
 
  
@@ -547,10 +548,32 @@ background-image: url("IMAGES YOGA/WEBPAGES/article 1.jpg");
 
 background-size: 350px;
   width:300px;
-  height:6240px;
+  height:5540px;
 
   background-size: cover;
   margin-left: -19px;
+
+
+width: 100%;
+
+ 
+}
+}
+ /* Content in measurements in small screen sizing */
+
+
+
+@media (max-width: 768px) {
+.corporate{
+
+background-image: url("IMAGES YOGA/WEBPAGES/corporate.jpg");
+
+background-size: 350px;
+  width:350px;
+  height:1750px;
+
+  background-size: cover;
+  margin-left: 1px;
 
 
 width: 100%;
