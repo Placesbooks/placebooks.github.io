@@ -405,7 +405,7 @@ background-image: url("IMAGES YOGA/WEBPAGES/corporate.jpg");
 
 
   width:400px;
-  height:2100px;
+  height:3100px;
   background-size: cover;
 
   margin-left: 290px;
@@ -417,11 +417,11 @@ background-image: url("IMAGES YOGA/WEBPAGES/corporate.jpg");
 
 .article1{
 
-background-image: url("IMAGES YOGA/WEBPAGES/article 1.jpg");
+background-image: url("IMAGES YOGA/WEBPAGES/article 1.png");
 
 
-  width:400px;
-  height:7200px;
+  width:300px;
+  height:4200px;
   background-size: cover;
 
   margin-left: 290px;
@@ -544,14 +544,14 @@ width: 100%;
 @media (max-width: 768px) {
 .article1{
 
-background-image: url("IMAGES YOGA/WEBPAGES/article 1.jpg");
+background-image: url("IMAGES YOGA/WEBPAGES/article 1.png");
 
-background-size: 350px;
+background-size: 300px;
   width:300px;
-  height:5540px;
+  height:4860px;
 
   background-size: cover;
-  margin-left: -19px;
+  margin-left: -9px;
 
 
 width: 100%;
@@ -570,7 +570,7 @@ background-image: url("IMAGES YOGA/WEBPAGES/corporate.jpg");
 
 background-size: 350px;
   width:350px;
-  height:1750px;
+  height:2700px;
 
   background-size: cover;
   margin-left: 1px;
