@@ -186,6 +186,27 @@ font-weight: bold;
 text-align: center;
 }
 
+.videotitle p{
+
+
+color: #343232;
+letter-spacing: .5px;
+font-size: 25px;
+font-weight: bold;
+text-align: center;
+
+}
+
+.videolink p
+{
+color: #343232;
+letter-spacing: .5px;
+font-size: 19px;
+font-weight: bold;
+text-align: center;
+
+
+}
 
 
 ul{color: red;
@@ -405,7 +426,7 @@ background-image: url("IMAGES YOGA/WEBPAGES/corporate.jpg");
 
 
   width:400px;
-  height:3100px;
+  height:4550px;
   background-size: cover;
 
   margin-left: 290px;
@@ -413,6 +434,91 @@ background-image: url("IMAGES YOGA/WEBPAGES/corporate.jpg");
 
  
 }
+
+
+.school{
+
+background-image: url("IMAGES YOGA/WEBPAGES/school.jpg");
+
+
+  width:400px;
+  height:6220px;
+  background-size: cover;
+
+  margin-left: 290px;
+
+
+ 
+}
+
+
+.parent{
+
+background-image: url("IMAGES YOGA/WEBPAGES/parent.jpg");
+
+
+  width:450px;
+  height:8300px;
+  background-size: contain;
+  background-repeat:no-repeat;
+
+  margin-left: 290px;
+
+
+ 
+}
+
+
+.senior{
+
+background-image: url("IMAGES YOGA/WEBPAGES/senior.jpg");
+
+
+  width:450px;
+  height:5700px;
+  background-size: contain;
+  background-repeat:no-repeat;
+
+  margin-left: 290px;
+
+
+ 
+}
+
+
+.faith{
+
+background-image: url("IMAGES YOGA/WEBPAGES/faith.jpg");
+
+
+  width:450px;
+  height:6200px;
+  background-size: cover;
+
+
+  margin-left: 290px;
+
+
+ 
+}
+
+
+.couples{
+
+background-image: url("IMAGES YOGA/WEBPAGES/couples.jpg");
+
+
+  width:450px;
+  height:6860px;
+  background-size: cover;
+
+  margin-left: 290px;
+
+
+ 
+}
+
+
 
 
 .article1{
@@ -568,9 +674,9 @@ width: 100%;
 
 background-image: url("IMAGES YOGA/WEBPAGES/corporate.jpg");
 
-background-size: 350px;
-  width:350px;
-  height:2700px;
+background-size: 360px;
+  width:360px;
+  height:3900px;
 
   background-size: cover;
   margin-left: 1px;
@@ -582,6 +688,115 @@ width: 100%;
 }
 }
  /* Content in measurements in small screen sizing */
+
+
+@media (max-width: 768px) {
+.school{
+
+background-image: url("IMAGES YOGA/WEBPAGES/school.jpg");
+
+background-size: 360px;
+  width:360px;
+  height:5350px;
+
+  background-size: cover;
+  margin-left: 1px;
+
+
+width: 100%;
+
+ 
+}
+}
+ /* Content in measurements in small screen sizing */
+
+
+
+@media (max-width: 768px) {
+.parent{
+
+background-image: url("IMAGES YOGA/WEBPAGES/parent.jpg");
+
+background-size: 360px;
+  width:360px;
+  height:6360px;
+
+  background-size: cover;
+  margin-left: 1px;
+
+
+width: 100%;
+
+ 
+}
+}
+ /* Content in measurements in small screen sizing */
+
+
+@media (max-width: 768px) {
+.senior{
+
+background-image: url("IMAGES YOGA/WEBPAGES/senior.jpg");
+
+background-size: 360px;
+  width:360px;
+ height:5000px;
+
+  background-size: cover;
+  margin-left: 1px;
+
+
+width: 100%;
+
+ 
+}
+}
+ /* Content in measurements in small screen sizing */ 
+
+
+
+@media (max-width: 768px) {
+.faith{
+
+background-image: url("IMAGES YOGA/WEBPAGES/faith.jpg");
+
+background-size: 360px;
+  width:360px;
+  height:4760px;
+
+  background-size: cover;
+  margin-left: 1px;
+
+
+width: 100%;
+
+ 
+}
+}
+ /* Content in measurements in small screen sizing */
+
+
+@media (max-width: 768px) {
+.couples{
+
+background-image: url("IMAGES YOGA/WEBPAGES/couples.jpg");
+
+background-size: 360px;
+  width:360px;
+  height:5250px;
+
+  background-size: cover;
+  margin-left: 1px;
+
+
+width: 100%;
+
+ 
+}
+}
+ /* Content in measurements in small screen sizing */
+
+
 
 @media (max-width: 768px) {
 .othercontent{  
