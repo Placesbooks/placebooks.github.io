@@ -111,7 +111,7 @@ display: inline-block;!important!;
 .mobilebanner h1{
  font-size: 65px;
  padding-right: 8px;
-  padding-left: 4px;
+  padding-left: 30px;
 
 }
 }
@@ -405,15 +405,12 @@ display: none;
 
  @media (max-width: 768px){
 .mobilephotocontent{
-display: inline-block;
-background-image: url("imagesorganize/mobileclean.jpg");
-
-  width:300px;
-  height:3550px;
+  display: inline-block;
+  background-image: url("imagesorganize/mobileclean.jpg");
+  width: 100%;
+  aspect-ratio: 1000 / 10536;
   background-size: cover;
- padding-right: 20px;
-width: 100%;
-
+  padding-right: 20px;
 }
 }
 
@@ -430,18 +427,40 @@ display: none;!important!;
 .mobileblogpost1{
 
 display: none;
+
 }
+
+.mobileblogpost2{
+
+display: none;
+}
+
+
+
 
  @media (max-width: 768px){
 .mobileblogpost1{
-display: inline-block;
-background-image: url("imagesorganize/mobilecleanblog1.jpg");
-
-  width:300px;
-  height:1600px;
+  display: inline-block;
+  background-image: url("imagesorganize/mobilecleanblog1.jpg");
+  width: 100%;
+  aspect-ratio: 1000 / 5000;
   background-size: cover;
- padding-right: 20px;
-width: 100%;
+  padding-right: 20px;
+
+
+
+}
+
+.mobileblogpost2{
+  display: inline-block;
+  background-image: url("imagesorganize/mobilecleanblog2.jpg");
+  width: 100%;
+  aspect-ratio: 1000 / 7918;
+  background-size: cover;
+  padding-right: 20px;
+
+
+
 
 }
 }
@@ -457,24 +476,9 @@ display: none;!important!;
 /* images in row, images with info small screen sizing */
 
 
-.mobileblogpost2{
 
-display: none;
-}
 
- @media (max-width: 768px){
-.mobileblogpost2{
-display: inline-block;
-background-image: url("imagesorganize/mobilecleanblog2.jpg");
-
-  width:300px;
-  height:2500px;
-  background-size: cover;
- padding-right: 20px;
-width: 100%;
-
-}
-}
+ 
 
 
  @media (max-width: 768px) {
